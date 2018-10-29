@@ -1,0 +1,9 @@
+.gf-image-banners__item {
+  padding: 5px;
+  margin: 10px 0 0;
+}
+
+.gf-image-banners__item img {
+  max-width: 100%;
+  height: auto;
+}

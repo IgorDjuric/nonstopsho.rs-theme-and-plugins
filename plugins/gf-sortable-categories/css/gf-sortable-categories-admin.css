@@ -1,0 +1,28 @@
+.filter-fields-list .parent-cat {
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+.parent-header, .child-header, .childs-of-child-header {
+    background-color: #1C2336!important;
+    color: white!important;
+}
+.filter-fields-list{
+    text-align: center;
+}
+.filter-fields-list .child-cat,h5{
+    margin: 10px 40px;
+}
+.gf-sortable-categories-wrapper h2:hover,h3:hover,h4:hover,h5:hover {
+    cursor: pointer;
+}
+.parent-cat-children, .child-cat-children{
+    background-color: #E7E7E7;
+    border: 2px solid #FE7725 !important;
+}
+.ui-state-active , .childs-of-child-header{
+    background-color: #FE7725!important;
+    border: none!important;
+}
+.ui-icon {
+    float: right;
+}

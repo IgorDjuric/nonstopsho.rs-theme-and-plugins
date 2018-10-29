@@ -1,0 +1,34 @@
+<div class="wrap">
+    <h2><?= __('Podešavanje slika za banere') ?></h2>
+    <br/>
+
+    <?php settings_errors(); ?>
+
+    <form method="post" action="options.php" id="theme-options-form-image-banners">
+        <?php settings_fields('gf-image-banners-settings-group'); ?>
+        <?php do_settings_sections('gf-image-banners-settings-group'); ?>
+
+        <div class="admin-module">
+
+            <h3 class="m-0">Veća slika</h3>
+            <?php $this->imageBanners->imageUploadField('image_banners_1') ?>
+
+            <h3 class="m-0">Manja slika</h3>
+            <?php $this->imageBanners->imageUploadField('image_banners_2') ?>
+
+            <h3 class="m-0">Manja slika</h3>
+            <?php $this->imageBanners->imageUploadField('image_banners_3') ?>
+
+            <h3 class="m-0">Veća slika</h3>
+            <?php $this->imageBanners->imageUploadField('image_banners_4') ?>
+
+            <h3 class="m-0">Manja slika</h3>
+            <?php $this->imageBanners->imageUploadField('image_banners_5') ?>
+
+            <h3 class="m-0">Manja slika</h3>
+            <?php $this->imageBanners->imageUploadField('image_banners_6') ?>
+        </div>
+</div>
+<?php submit_button('', 'primary', 'image_banners_submit'); ?>
+</form>
+</div><!--WRAP-->

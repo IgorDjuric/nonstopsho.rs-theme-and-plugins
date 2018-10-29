@@ -1,0 +1,18 @@
+<div class="wrap">
+    <h2><?= __('Podešavanja slika za slider') ?></h2>
+    <br/>
+
+    <?php settings_errors();?>
+
+    <form method="post" action="options.php" id="theme-options-form">
+        <?php settings_fields('gf-image-slider-settings-group'); ?>
+        <?php do_settings_sections('gf-image-slider-settings-group'); ?>
+
+        <div class="admin-module">
+            <?php $this->imageSlider->imageUploadField('image_1') ?>
+            <?php $this->imageSlider->imageUploadField('image_2') ?>
+            <?php $this->imageSlider->imageUploadField('image_3') ?>
+        </div>
+        <?php submit_button('', 'primary', 'images_submit'); ?>
+    </form>
+</div><!--WRAP-->

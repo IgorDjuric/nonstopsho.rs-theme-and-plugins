@@ -1,0 +1,52 @@
+.gf-sticker {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+.gf-sticker img {
+  min-width: 3.236em;
+  height: auto;
+}
+
+.gf-sticker--left {
+  left: 0;
+}
+
+.gf-sticker--center {
+  top: 10%;
+  display: block;
+  width: 48%;
+  float: left;
+  pointer-events: none;
+}
+
+.gf-sticker--center img {
+  width: 100%;
+  max-width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gf-sticker--right {
+  right: 0;
+}
+
+.gf-sticker--loop-grid {
+  width: 100%;
+  top: 28%;
+}
+
+.gf-sticker--loop-list {
+  width: 30.75% !important;
+}
+
+.gf-sticker--loop-list img {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .gf-sticker--center {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.gf-image-banner-widget-form label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+    padding-bottom: 7px;
+}
+.gf-image-banner-widget-form input{
+    margin-top: 10px;
+}
+.gf-image-banner-block{
+    margin-top: 10px;
+    border-bottom: 1px solid #eeeeee;
+}

@@ -1,0 +1,8 @@
+.gf-image-preview-wrapper{
+    width: 100%;
+}
+.gf-image-preview-wrapper img{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
